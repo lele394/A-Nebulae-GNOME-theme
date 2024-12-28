@@ -1,0 +1,398 @@
+
+
+* {
+
+    /* color: #F5BDE6;  */
+    /* background-color: #4b3545; */
+    /* background-color: rgba(24, 23, 54, 0.6); */
+
+} 
+
+
+/* Switches */
+.toggle-switch {background-image: url("toggle-off-dark.svg"); }
+.toggle-switch:checked {background-image: url("toggle-on-dark.svg"); }
+
+  
+
+
+/* Top bar =============================================== */
+#panel {
+    color: #F5BDE6;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#panelLeft, #panelRight, #panelCenter {
+    color: #F5BDE6;
+    background-color: rgba(24, 23, 54, 0.6);
+}
+
+#panelRight {
+    border-radius: 0px 0px 0px 20px;
+    padding-left: 10px;
+}
+
+#panelLeft {
+    border-radius: 0px 0px 20px 0px;
+    padding-right: 10px;
+}
+
+#panelCenter {
+    border-radius: 0px 0px 20px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.panel-button {
+    color: #F5BDE6;
+}
+.panel-button:hover {
+    /* border: 1px solid lime; */
+    background-color: #f5bde634
+}
+
+
+.panel-button StIcon{
+    /* border: 1px solid lime; */
+    color: #F5BDE6;
+}
+
+.popup-menu-item{
+    /* border: 1px solid lime; */
+    color : #F5BDE6;
+}
+
+
+
+
+/* Messages (notifs) and central panel =============================================== */
+
+.message {
+    /* border: 1px solid lime; */
+    color : #F5BDE6;
+}
+
+.popup-menu {
+    /* border: 1px solid lime; */
+    color : #F5BDE6;
+
+}
+
+.dnd-button:checked {
+    /* border: 1px solid lime; */
+}
+/* .message StIcon{
+    border: 1px solid lime;
+} */
+
+
+
+
+
+
+
+/* .calendar-month-label{
+    border: 1px solid lime;
+    color : #F5BDE6;
+
+} */
+
+/* This fucker is the whole "inner" menu */
+/* #calendarArea {
+    border: 1px solid lime;
+
+} */
+/* This fucker is the whole "outer" menu */
+.datemenu-popover {
+    border: 1px solid #F5BDE6;
+}
+
+/* .datemenu-calendar-column {
+    border: 1px solid lime;
+} */
+
+.datemenu-displays-box * {
+    /* border: 1px solid lime; */
+    color: #F5BDE6;
+}
+
+.date-label, .day-label {
+    /* border: 1px solid lime; */
+    color: #a37e99;
+}
+
+.calendar-day:focus {
+    /* border-color: #f77bd6;     */
+    /* border: solid 1px lime;  */
+    /* box-shadow: none;    */
+}
+
+.calendar-day.calendar-today {
+    background-color: #F5BDE6;
+    color: black !important;
+}
+/* 
+.calendar-day.calendar-today {
+} */
+
+.calendar-day-heading {
+    color: #F5BDE6;
+}
+
+/* .calendar-week-number {
+    color: lime;    
+} */
+
+
+/* 
+
+/* Dock style, don't forget to set opacity to 0 in extensions =============================================== */
+
+#dashtodockDashContainer {
+    border: 1px solid #F5BDE6;
+    border-radius: 40px;
+    background-color: #4b3545;
+
+}
+
+/* .dash-item-container {
+    border: 1px solid lime;
+} */
+
+/* .panel-status-menu-box {
+    border: 1px solid lime;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Master =============================================== */
+
+/* StBoxLayout  {
+    border: 1px solid lime;
+} */
+
+
+/* StScrollView {
+    border: 1px solid lime;
+} */
+
+
+/* Style all icons */
+StIcon  {
+    /* border: 1px solid lime; */
+    color : #F5BDE6;
+
+}
+
+
+
+
+
+/* IDK =============================================== */
+
+/* .dashtodockBox {
+    border: 1px solid lime;
+} */
+
+/* .dash {
+    border: 1px solid lime;
+} */
+
+/* .osd-window {
+    border: 1px solid lime;
+} */
+
+/* .pad-osd-window  {
+    border: 1px solid lime;
+} */
+
+/* .pad-osd-title-box {
+    border: 1px solid lime;
+} */
+
+/* .pad-osd-title-menu-box {
+    border: 1px solid lime;
+} */
+
+/* .panel-button.clock-display {
+    border: 1px solid lime;
+} */
+
+/* .panel-status-menu-box {
+    border: 1px solid lime;
+} */
+
+/* something bout icons */
+/* .panel-status-indicators-box {
+    border: 1px solid lime;
+} */
+
+/* #appMenu {
+    border: 1px solid lime;
+} */
+
+
+
+
+
+
+
+
+
+
+/*
+
+.workspace-dot {
+    border: 1px solid lime;
+}
+
+.app-menu-icon {
+    border: 1px solid lime;
+} 
+
+.system-status-icon {
+    border: 1px solid lime;
+}
+
+.panel-button#panelActivities {
+    border: 1px solid lime;
+}
+
+.panel-status-menu-box {
+    border: 1px solid lime;
+}
+
+.shell-link {
+    border: 1px solid lime;
+}
+
+*/
+
+
+StEntry {
+    /* border: 1px solid lime; */
+    border-color: #F5BDE6;
+}
+
+
+
+
+/* Quick Settings Menu =============================================== */
+
+/* Text  */
+.quick-toggle-subtitle .quick-toggle:checked, .quick-toggle-title .quick-toggle:checked {
+    color: #000000; /* turns out it doesn't like rgba*/
+    /* border: 1px solid lime; */
+}
+
+
+.quick-settings {
+    background-color: rgba(24, 23, 54, 0.6);
+    border-radius: 20px 0px 20px 20px;
+    border: none;
+}
+
+/* .quick-settings StIcon{
+    color : #F5BDE6;
+} */
+
+/* It's the toggles */
+.quick-toggle {
+    background-color: rgba(24, 23, 54);
+    color : #F5BDE6;
+    /* border: 1px solid lime; */
+}
+.quick-toggle:checked, .quick-toggle:checked StIcon {
+    background-color: #F5BDE6;
+    color: #000000 ; /* turns out it doesn't like rgba*/
+    /* border: 1px solid lime; */
+}
+
+/* Not sure what this one do
+.quick-menu-toggle {
+    border: 1px solid lime;
+}
+*/
+
+.quick-toggle-arrow:checked , .quick-toggle-arrow:checked StIcon {
+    /* border: 1px solid lime; */
+    background-color: #f77bd6;
+    color: black;
+}
+
+
+/* sliders */
+/* .quick-slider .icon-button {
+    color : #F5BDE6;
+} */
+
+.slider {
+    /* border: 1px solid lime; */
+    -barlevel-active-background-color: #f77bd6;
+    -barlevel-background-color: rgba(24, 23, 54);
+    color: #F5BDE6;
+    /* background-color: #f77bd654; */
+
+}
+
+
+
+/* dropdown inside quicksettings */
+.quick-toggle-menu {
+    color : #F5BDE6;
+}
+
+    
+/* .quick-toggle.button {
+    border: 1px solid lime;
+} */
+
+
+
+
+
+/* 
+
+.quick-toggle-icon {
+    border: 1px solid lime;
+}
+
+.quick-toggle-arrow {
+    border: 1px solid lime;
+}
+ */
+
+
+/* Notification center stuff is under message it seems */
+ /* .message {
+    border: 1px solid lime;
+} */
+
+
+
+
+
+
+
+/* Power status display, top bar */
+/* .power-status {
+    border: 1px solid lime;
+} */
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 26" width="46" height="26">
+	<title>toggle-on-dark</title>
+	<style>
+		.s0 { fill: #f77bd6 } 
+		.s1 { opacity: .2;fill: #000000 } 
+		.s2 { fill: #ffffff } 
+	</style>
+	<g>
+		<path class="s0" d="m12.5 0h21c6.9 0 12.5 5.6 12.5 12.5v1c0 6.9-5.6 12.5-12.5 12.5h-21c-6.9 0-12.5-5.6-12.5-12.5v-1c0-6.9 5.6-12.5 12.5-12.5z"/>
+		<path class="s1" d="m33 4c5.5 0 10 4.5 10 10 0 5.5-4.5 10-10 10-5.5 0-10-4.5-10-10 0-5.5 4.5-10 10-10z"/>
+		<path class="s2" d="m33 3c5.5 0 10 4.5 10 10 0 5.5-4.5 10-10 10-5.5 0-10-4.5-10-10 0-5.5 4.5-10 10-10z"/>
+	</g>
+</svg>
